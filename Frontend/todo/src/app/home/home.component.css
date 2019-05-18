@@ -1,0 +1,42 @@
+
+.right,.left{
+    height:calc(100vh - 50px);
+    padding: 74px 0 0 32px;
+}
+.left{
+    border-right-color: rgb(211, 208, 200);
+    background-color: rgb(219, 216, 209);
+   
+}
+.action{
+ cursor: pointer; 
+}
+
+.buttons{
+    font-size: 13px !important;
+    line-height: 17px;
+}
+.flex-container {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.myrow{
+    padding-top: 25px;
+}
+
+
+
+::-moz-placeholder { /* Firefox 19+ */
+    font-style: italic;
+  }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-style: italic;
+}
+
+.span {
+    display: block;
+    padding: 0 10px 0 0;
+    margin-bottom: 100px; /* SIMPLY SET THIS PROPERTY AS MUCH AS YOU WANT. This changes the space below box1 */
+}
